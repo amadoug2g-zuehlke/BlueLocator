@@ -47,5 +47,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Need BLE permission for device connection.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Need BLE permission for device connection.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Need location permission for device scanning.</string>
 </dict>
 </plist>

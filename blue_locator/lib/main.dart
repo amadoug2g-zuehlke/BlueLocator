@@ -1,20 +1,21 @@
+import 'package:blue_locator/src/features/home/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const BleTrackerApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class BleTrackerApp extends StatelessWidget {
+  const BleTrackerApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Blue Locator',
+      title: 'BLE Tracker',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Text("Screen"),
+      home: const HomePage(),
     );
   }
 }
